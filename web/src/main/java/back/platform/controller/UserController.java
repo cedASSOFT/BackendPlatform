@@ -1,6 +1,6 @@
 package back.platform.controller;
 
-import back.platform.model.user.User;
+import back.platform.model.user.AppUser;
 import back.platform.service.userService.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -17,13 +17,13 @@ public class UserController {
     private IUserService userService;
 
     @GetMapping("/admin/users")
-    public List<User> getUsers() {
+    public List<AppUser> getUsers() {
         return userService.findAll();
     }
 
     @GetMapping("/admin/user/{user_ID}")
     @PreAuthorize("hasRole('ADMIN')")
-    public Optional<User> getUser(@PathVariable Long user_ID) {
+    public Optional<AppUser> getUser(@PathVariable Long user_ID) {
         return userService.findByUser_ID(user_ID);
     }
 
@@ -35,7 +35,7 @@ public class UserController {
 
     @PutMapping("/admin/update/user")
     @PreAuthorize("hasRole('ADMIN')")
-    public User updateUser(@RequestBody User user) {
+    public AppUser updateUser(@RequestBody AppUser user) {
         return userService.updateUser(user);
     }
 

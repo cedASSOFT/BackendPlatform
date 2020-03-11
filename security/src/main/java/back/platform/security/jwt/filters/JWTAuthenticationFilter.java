@@ -1,6 +1,6 @@
 package back.platform.security.jwt.filters;
 
-import org.springframework.security.core.userdetails.User;
+import back.platform.model.user.AppUser;
 import back.platform.security.securityParameters.SecurityParams;
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
@@ -9,6 +9,7 @@ import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
+import org.springframework.security.core.userdetails.User;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 import javax.servlet.FilterChain;
@@ -31,10 +32,10 @@ public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilte
 
     @Override
     public Authentication attemptAuthentication(HttpServletRequest request, HttpServletResponse response) throws AuthenticationException {
-        User user = null;
+        AppUser user = null;
         try {
             //Consume Json format
-            user = new ObjectMapper().readValue(request.getInputStream(), User.class);
+            user = new ObjectMapper().readValue(request.getInputStream(), AppUser.class);
             return authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(user.getUsername(), user.getPassword()));
         } catch (IOException e) {
             e.printStackTrace();

@@ -11,7 +11,7 @@ import java.util.Set;
 
 @Entity
 @Table(name = "users")
-public class User {
+public class AppUser {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long user_ID;
@@ -41,10 +41,10 @@ public class User {
             inverseJoinColumns = @JoinColumn(name = "role_id"))
     private Set<Role> roles = new HashSet<>();
 
-    public User() {
+    public AppUser() {
     }
 
-    public User(String firstname, String lastname, String username, @Email @Size(min = 3, max = 50) String email, String password, boolean connected, Set<Role> roles) {
+    public AppUser(String firstname, String lastname, String username, @Email @Size(min = 3, max = 50) String email, String password, boolean connected, Set<Role> roles) {
         this.firstname = firstname;
         this.lastname = lastname;
         this.username = username;
@@ -54,7 +54,7 @@ public class User {
         this.roles = roles;
     }
 
-    public User(String firstname, String lastname, String username, @Email @Size(min = 3, max = 50) String email, String password, boolean connected) {
+    public AppUser(String firstname, String lastname, String username, @Email @Size(min = 3, max = 50) String email, String password, boolean connected) {
         this.firstname = firstname;
         this.lastname = lastname;
         this.username = username;

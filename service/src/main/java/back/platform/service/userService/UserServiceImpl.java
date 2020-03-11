@@ -6,7 +6,7 @@ import back.platform.exceptions.registrationException.PasswordConfirmationExcept
 import back.platform.exceptions.registrationException.UsernameAlreadyExistException;
 import back.platform.message.responseMessage.SuccessRegistration;
 import back.platform.model.role.Role;
-import back.platform.model.user.User;
+import back.platform.model.user.AppUser;
 import back.platform.model.user.regisration.RegistrationForm;
 import back.platform.repository.roleRepository.RoleRepository;
 import back.platform.repository.userRepository.UserRepository;
@@ -57,7 +57,7 @@ public class UserServiceImpl implements IUserService, IRoleService {
 
         String password = passwordEncoder().encode(form.getPassword());
 
-        User user = new User(form.getFirstname(), form.getLastname(), form.getUsername(), form.getEmail(), password, true);
+        AppUser user = new AppUser(form.getFirstname(), form.getLastname(), form.getUsername(), form.getEmail(), password, true);
 
         addRoleToUser(form.getUsername(), "ROLE_USER");
 
@@ -66,12 +66,12 @@ public class UserServiceImpl implements IUserService, IRoleService {
     }
 
     @Override
-    public List<User> findAll() {
+    public List<AppUser> findAll() {
         return userRepository.findAll();
     }
 
     @Override
-    public Optional<User> findByUser_ID(Long user_ID) {
+    public Optional<AppUser> findByUser_ID(Long user_ID) {
         return userRepository.findById(user_ID);
     }
 
@@ -86,12 +86,12 @@ public class UserServiceImpl implements IUserService, IRoleService {
     }
 
     @Override
-    public User updateUser(User user) {
+    public AppUser updateUser(AppUser user) {
         return null;
     }
 
     @Override
-    public User findByUsername(String username) {
+    public AppUser findByUsername(String username) {
         return userRepository.findByUsername(username);
     }
 
@@ -117,7 +117,7 @@ public class UserServiceImpl implements IUserService, IRoleService {
 
     @Override
     public void addRoleToUser(String username, String rolename) {
-        User user = findByUsername(username);
+        AppUser user = findByUsername(username);
         Role role = findByRoleName(rolename);
         user.getRoles().add(role);
     }

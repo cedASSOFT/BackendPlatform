@@ -2,7 +2,7 @@ package back.platform.service.userService;
 
 import back.platform.exceptions.registrationException.EmailAlreadyExistException;
 import back.platform.exceptions.registrationException.UsernameAlreadyExistException;
-import back.platform.model.user.User;
+import back.platform.model.user.AppUser;
 import back.platform.model.user.regisration.RegistrationForm;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
@@ -14,15 +14,15 @@ import java.util.Optional;
 public interface IUserService {
     ResponseEntity<?> saveUser(RegistrationForm form) throws UsernameAlreadyExistException, EmailAlreadyExistException;
 
-    List<User> findAll();
+    List<AppUser> findAll();
 
-    Optional<User> findByUser_ID(Long user_ID);
+    Optional<AppUser> findByUser_ID(Long user_ID);
 
     Boolean deletedUser(Long user_ID);
 
-    User updateUser(User user);
+    AppUser updateUser(AppUser user);
 
-    User findByUsername(String username);
+    AppUser findByUsername(String username);
 
     Boolean existByEmail(String email);
 

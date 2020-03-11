@@ -1,5 +1,6 @@
 package back.platform.security.securityService;
 
+import back.platform.model.user.AppUser;
 import back.platform.service.userService.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
@@ -22,7 +23,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        back.platform.model.user.User user = userService.findByUsername(username);
+        AppUser user = userService.findByUsername(username);
         if(user==null) throw new UsernameNotFoundException("invalid user");
         Collection<GrantedAuthority> authorities=new ArrayList<>();
         user.getRoles().forEach(role->{
