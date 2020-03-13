@@ -4,17 +4,17 @@ import back.platform.model.role.Role;
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;
-import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
+import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
 
 @Entity
 @Table(name = "users")
-public class AppUser {
+public class AppUser implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long user_ID;
+    private Long userID;
 
     @Column(unique = false, nullable = false)
     private String firstname;
@@ -63,12 +63,12 @@ public class AppUser {
         this.connected = connected;
     }
 
-    public Long getUser_ID() {
-        return user_ID;
+    public Long getUserID() {
+        return userID;
     }
 
-    public void setUser_ID(Long user_ID) {
-        this.user_ID = user_ID;
+    public void setUserID(Long user_ID) {
+        this.userID = user_ID;
     }
 
     public String getFirstname() {
@@ -130,7 +130,7 @@ public class AppUser {
     @Override
     public String toString() {
         return "User{" +
-                "user_ID=" + user_ID +
+                "userID=" + userID +
                 ", firstname='" + firstname + '\'' +
                 ", lastname='" + lastname + '\'' +
                 ", username='" + username + '\'' +

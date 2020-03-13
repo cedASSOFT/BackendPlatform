@@ -3,10 +3,11 @@ package back.platform.model.test;
 import back.platform.model.lesson.Lesson;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Entity
-@Table(name = "tests")
-public class Test {
+//@Table(name = "tests")
+public class Test implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long test_ID;

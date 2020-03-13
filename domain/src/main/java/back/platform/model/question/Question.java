@@ -4,17 +4,19 @@ import back.platform.model.response.Response;
 import back.platform.model.test.Test;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.Collection;
+
 @Entity
-@Table(name = "question")
-public class Question {
+//@Table(name = "question")
+public class Question implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long question_ID;
     private String title;
     @ManyToOne
     private Test test;
-    @OneToMany(mappedBy = "question", fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "question")
     private Collection<Response> responses;
 
     public Question() {

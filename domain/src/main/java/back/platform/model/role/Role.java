@@ -1,10 +1,11 @@
 package back.platform.model.role;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Entity
-@Table(name = "roles")
-public class Role {
+//@Table(name = "roles")
+public class Role implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long role_ID;

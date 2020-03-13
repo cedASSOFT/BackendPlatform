@@ -1,10 +1,11 @@
 package back.platform.model.course;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Entity
 @Table(name = "courses")
-public class Course {
+public class Course implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "course_ID")

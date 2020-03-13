@@ -3,16 +3,17 @@ package back.platform.model.response;
 import back.platform.model.question.Question;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Entity
-@Table(name = "response")
-public class Response {
+//@Table(name = "response")
+public class Response implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long response_ID;
     private String title;
     private Boolean correct;
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne
     private Question question;
 
     public Response() {

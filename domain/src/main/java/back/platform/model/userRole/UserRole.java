@@ -1,25 +1,27 @@
 package back.platform.model.userRole;
 
 import back.platform.model.role.Role;
-import back.platform.model.user.User;
+import back.platform.model.user.AppUser;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
-@Entity
-@Table(name = "user_roles")
-public class UserRole {
+//@Entity
+//@Table(name = "user_roles")
+public class UserRole implements Serializable {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long userRole_ID;
     @ManyToOne
     private Role role;
     @ManyToOne
-    private User user;
+    private AppUser user;
 
     public UserRole() {
     }
 
-    public UserRole(Role role, User user) {
+    public UserRole(Role role, AppUser user) {
         this.role = role;
         this.user = user;
     }
@@ -40,11 +42,11 @@ public class UserRole {
         this.role = role;
     }
 
-    public User getUser() {
+    public AppUser getUser() {
         return user;
     }
 
-    public void setUser(User user) {
+    public void setUser(AppUser user) {
         this.user = user;
     }
 

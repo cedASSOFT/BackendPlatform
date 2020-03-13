@@ -19,22 +19,26 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
 
 @Service
-@Transactional
 public class UserServiceImpl implements IUserService, IRoleService {
 
     private final static Logger LOGGER = LogManager.getLogger(UserServiceImpl.class);
 
-    @Autowired
     private UserRepository userRepository;
 
-    @Autowired
     private RoleRepository roleRepository;
+
+    public UserServiceImpl() {
+    }
+
+    public UserServiceImpl(UserRepository userRepository, RoleRepository roleRepository) {
+        this.userRepository = userRepository;
+        this.roleRepository = roleRepository;
+    }
 
     @Bean
     public BCryptPasswordEncoder passwordEncoder() {
@@ -107,7 +111,7 @@ public class UserServiceImpl implements IUserService, IRoleService {
 
     @Override
     public Boolean existByUser_ID(Long user_ID) {
-        return userRepository.existsByUser_ID(user_ID);
+        return userRepository.existsByUserID(user_ID);
     }
 
     @Override

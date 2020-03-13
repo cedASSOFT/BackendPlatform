@@ -1,14 +1,15 @@
 package back.platform.model.lesson;
 
 import back.platform.model.course.Course;
-import back.platform.model.user.User;
+import back.platform.model.user.AppUser;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Entity
 @Table(name = "lessons")
-public class Lesson {
+public class Lesson implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long lesson_ID;
@@ -18,12 +19,12 @@ public class Lesson {
     private Course course;
     @ManyToOne(fetch = FetchType.LAZY)
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
-    private User user;
+    private AppUser user;
 
     public Lesson() {
     }
 
-    public Lesson(String difficulty, Course course, User user) {
+    public Lesson(String difficulty, Course course, AppUser user) {
         this.difficulty = difficulty;
         this.course = course;
         this.user = user;
@@ -53,11 +54,11 @@ public class Lesson {
         this.course = course;
     }
 
-    public User getUser() {
+    public AppUser getUser() {
         return user;
     }
 
-    public void setUser(User user) {
+    public void setUser(AppUser user) {
         this.user = user;
     }
 
