@@ -12,11 +12,14 @@ import java.io.Serializable;
 public class Lesson implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long lesson_ID;
+    private Long lessonID;
+
     private String difficulty;
+
     @ManyToOne(fetch = FetchType.LAZY)
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     private Course course;
+
     @ManyToOne(fetch = FetchType.LAZY)
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     private AppUser user;
@@ -30,12 +33,12 @@ public class Lesson implements Serializable {
         this.user = user;
     }
 
-    public Long getLesson_ID() {
-        return lesson_ID;
+    public Long getLessonID() {
+        return lessonID;
     }
 
-    public void setLesson_ID(Long lesson_ID) {
-        this.lesson_ID = lesson_ID;
+    public void setLessonID(Long lessonID) {
+        this.lessonID = lessonID;
     }
 
     public String getDifficulty() {
@@ -65,7 +68,7 @@ public class Lesson implements Serializable {
     @Override
     public String toString() {
         return "Lesson{" +
-                "lesson_ID=" + lesson_ID +
+                "lessonID=" + lessonID +
                 ", difficulty='" + difficulty + '\'' +
                 ", course=" + course +
                 ", user=" + user +

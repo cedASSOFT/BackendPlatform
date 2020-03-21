@@ -1,16 +1,22 @@
 package back.platform.model.course;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
 import javax.persistence.*;
 import java.io.Serializable;
 
 @Entity
 @Table(name = "courses")
+@ApiModel(value = "Course entity", description = "All details about user")
 public class Course implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "course_ID")
-    private Long course_ID;
+    @ApiModelProperty(notes = "The database generated course Id")
+    private long courseID;
+    @ApiModelProperty(notes = "The field name of the table course")
     private String courseName;
+    @ApiModelProperty(notes = "The link of the course")
     private String courseLink;
 
     public Course() {
@@ -21,12 +27,12 @@ public class Course implements Serializable {
         this.courseLink = courseLink;
     }
 
-    public Long getCourse_ID() {
-        return course_ID;
+    public Long getCourseID() {
+        return courseID;
     }
 
-    public void setCourse_ID(Long course_ID) {
-        this.course_ID = course_ID;
+    public void setCourseID(Long courseID) {
+        this.courseID = courseID;
     }
 
     public String getCourseName() {
@@ -48,7 +54,7 @@ public class Course implements Serializable {
     @Override
     public String toString() {
         return "Course{" +
-                "course_ID=" + course_ID +
+                "courseID=" + courseID +
                 ", courseName='" + courseName + '\'' +
                 ", courseLink='" + courseLink + '\'' +
                 '}';

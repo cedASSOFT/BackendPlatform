@@ -12,10 +12,13 @@ import java.util.Collection;
 public class Question implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long question_ID;
+    private Long questionID;
+
     private String title;
+
     @ManyToOne
     private Test test;
+
     @OneToMany(mappedBy = "question")
     private Collection<Response> responses;
 
@@ -28,12 +31,12 @@ public class Question implements Serializable {
         this.responses = responses;
     }
 
-    public Long getQuestion_ID() {
-        return question_ID;
+    public Long getQuestionID() {
+        return questionID;
     }
 
-    public void setQuestion_ID(Long question_ID) {
-        this.question_ID = question_ID;
+    public void setQuestionID(Long questionID) {
+        this.questionID = questionID;
     }
 
     public String getTitle() {
@@ -63,7 +66,7 @@ public class Question implements Serializable {
     @Override
     public String toString() {
         return "Question{" +
-                "question_ID=" + question_ID +
+                "questionID=" + questionID +
                 ", title='" + title + '\'' +
                 ", test=" + test +
                 ", responses=" + responses +

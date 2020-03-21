@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BackendPlatform.iml" filepath="$PROJECT_DIR$/BackendPlatform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/configuration/configuration.iml" filepath="$PROJECT_DIR$/configuration/configuration.iml" />
       <module fileurl="file://$PROJECT_DIR$/domain/domain.iml" filepath="$PROJECT_DIR$/domain/domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/exceptions/exceptions.iml" filepath="$PROJECT_DIR$/exceptions/exceptions.iml" />
       <module fileurl="file://$PROJECT_DIR$/message/message.iml" filepath="$PROJECT_DIR$/message/message.iml" />

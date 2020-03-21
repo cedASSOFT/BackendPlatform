@@ -2,57 +2,114 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d13e618-7983-43ba-a09e-7e64f8edc3d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/target/classes/back/platform/model/user/AppUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_31.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_30.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_31.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_30.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_31.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_30.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_12_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_10_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_rest_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_rest_2_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_2_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_2_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_core_3_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_core_3_2_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_webmvc_3_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_webmvc_3_2_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_2_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_2_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_2_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_2_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration/configuration.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration/src/main/java/back/platform/configuration/swaggerConfiguration/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/back/platform/model/course/CourseForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exceptions/src/main/java/back/platform/exceptions/notFoundExceptions/CourseNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message/src/main/java/back/platform/message/responseMessage/SuccessfulAddedCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message/src/main/java/back/platform/message/responseMessage/SuccessfulUpdatedCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/back/platform/service/courseService/CourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/back/platform/service/courseService/ICourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/back/platform/service/initializationService/initDataService/IInitDatabaseFeeder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/back/platform/service/initializationService/initDataService/InitDatabaseFeederImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/back/platform/service/questionService/IQuestionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/back/platform/controller/courseRestController/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_10_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_rest_2_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_core_3_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_webmvc_3_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_hateoas_spring_hateoas_1_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_2_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_2_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_2_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_2_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BackendPlatform.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BackendPlatform.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/domain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/domain.iml" afterDir="false" />
@@ -70,43 +127,36 @@
       <change beforePath="$PROJECT_DIR$/domain/target/classes/back/platform/model/response/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/back/platform/model/response/Response.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/target/classes/back/platform/model/role/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/back/platform/model/role/Role.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/target/classes/back/platform/model/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/back/platform/model/test/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/back/platform/model/user/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/target/classes/back/platform/model/user/AppUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/back/platform/model/user/AppUser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/target/classes/back/platform/model/userRole/UserRole.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/back/platform/model/userRole/UserRole.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exceptions/exceptions.iml" beforeDir="false" afterPath="$PROJECT_DIR$/exceptions/exceptions.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exceptions/src/main/java/back/platform/exceptions/notFoundExceptions/User_IDNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/exceptions/src/main/java/back/platform/exceptions/notFoundExceptions/User_IDNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exceptions/target/classes/back/platform/exceptions/notFoundExceptions/User_IDNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/exceptions/target/classes/back/platform/exceptions/notFoundExceptions/User_IDNotFoundException.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/message/message.iml" beforeDir="false" afterPath="$PROJECT_DIR$/message/message.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/src/main/java/back/platform/message/responseMessage/SuccessRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/message/src/main/java/back/platform/message/responseMessage/SuccessRegistration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/target/classes/back/platform/message/responseMessage/SuccessRegistration.class" beforeDir="false" afterPath="$PROJECT_DIR$/message/target/classes/back/platform/message/responseMessage/SuccessRegistration.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/repository/repository.iml" beforeDir="false" afterPath="$PROJECT_DIR$/repository/repository.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/repository/src/main/java/back/platform/repository/courseRepository/CourseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/repository/src/main/java/back/platform/repository/courseRepository/CourseRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/src/main/java/back/platform/repository/lessonRepository/LessonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/repository/src/main/java/back/platform/repository/lessonRepository/LessonRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/src/main/java/back/platform/repository/questionRepository/QuestionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/repository/src/main/java/back/platform/repository/questionRepository/QuestionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/src/main/java/back/platform/repository/responseRepository/ResponseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/repository/src/main/java/back/platform/repository/responseRepository/ResponseRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/src/main/java/back/platform/repository/roleRepository/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/repository/src/main/java/back/platform/repository/roleRepository/RoleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/src/main/java/back/platform/repository/testRepository/TestRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/repository/src/main/java/back/platform/repository/testRepository/TestRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/src/main/java/back/platform/repository/userRepository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/repository/src/main/java/back/platform/repository/userRepository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/src/main/java/back/platform/repository/userRoleRepository/UserRoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/repository/src/main/java/back/platform/repository/userRoleRepository/UserRoleRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/repository/target/classes/back/platform/repository/courseRepository/CourseRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/repository/target/classes/back/platform/repository/courseRepository/CourseRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/target/classes/back/platform/repository/lessonRepository/LessonRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/repository/target/classes/back/platform/repository/lessonRepository/LessonRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/target/classes/back/platform/repository/questionRepository/QuestionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/repository/target/classes/back/platform/repository/questionRepository/QuestionRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/target/classes/back/platform/repository/responseRepository/ResponseRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/repository/target/classes/back/platform/repository/responseRepository/ResponseRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/target/classes/back/platform/repository/roleRepository/RoleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/repository/target/classes/back/platform/repository/roleRepository/RoleRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/target/classes/back/platform/repository/testRepository/TestRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/repository/target/classes/back/platform/repository/testRepository/TestRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/target/classes/back/platform/repository/userRepository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/repository/target/classes/back/platform/repository/userRepository/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/target/classes/back/platform/repository/userRoleRepository/UserRoleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/repository/target/classes/back/platform/repository/userRoleRepository/UserRoleRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/security/security.iml" beforeDir="false" afterPath="$PROJECT_DIR$/security/security.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/security/src/main/java/back/platform/security/configuration/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/security/src/main/java/back/platform/security/configuration/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/src/main/java/back/platform/security/jwt/filters/JWTAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/security/src/main/java/back/platform/security/jwt/filters/JWTAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/src/main/java/back/platform/security/jwt/filters/JWTAuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/security/src/main/java/back/platform/security/jwt/filters/JWTAuthorizationFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/back/platform/service/roleService/IRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/back/platform/service/roleService/IRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/back/platform/service/userService/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/back/platform/service/userService/IUserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/src/main/java/back/platform/service/userService/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/back/platform/service/userService/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/back/platform/service/roleService/IRoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/back/platform/service/roleService/IRoleService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/target/classes/back/platform/service/userService/IUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/back/platform/service/userService/IUserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/target/classes/back/platform/service/userService/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/back/platform/service/userService/UserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/BackendPlatformApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/back/platform/controller/BackendPlatformApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/back/platform/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/back/platform/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/back/platform/controller/AuthenticationAndRegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/back/platform/controller/userRestController/AuthenticationAndRegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/back/platform/controller/BackendPlatformApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/back/platform/BackendPlatformApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/back/platform/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/back/platform/controller/userRestController/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/BackendPlatformApplication.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/back/platform/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/back/platform/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/back/platform/controller/AuthenticationAndRegisterController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/back/platform/controller/BackendPlatformApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/back/platform/controller/UserController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web/web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -118,11 +168,26 @@
     <ignored path="$PROJECT_DIR$/security/target/" />
     <ignored path="$PROJECT_DIR$/message/target/" />
     <ignored path="$PROJECT_DIR$/exceptions/target/" />
+    <ignored path="$PROJECT_DIR$/configuration/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-347696609">
@@ -131,43 +196,45 @@
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.126" value="1" />
           <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="6" />
-          <entry key="iml" value="1" />
-          <entry key="java" value="135" />
+          <entry key="class" value="8" />
+          <entry key="iml" value="2" />
+          <entry key="java" value="221" />
           <entry key="pom" value="1" />
-          <entry key="properties" value="8" />
-          <entry key="xml" value="31" />
+          <entry key="properties" value="13" />
+          <entry key="xml" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="6" />
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="135" />
-          <entry key="Properties" value="8" />
-          <entry key="XML" value="32" />
+          <entry key="CLASS" value="8" />
+          <entry key="IDEA_MODULE" value="2" />
+          <entry key="JAVA" value="221" />
+          <entry key="Properties" value="13" />
+          <entry key="XML" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="6839" />
-          <entry key="properties" value="88" />
-          <entry key="xml" value="273" />
+          <entry key="java" value="11316" />
+          <entry key="properties" value="182" />
+          <entry key="xml" value="502" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6839" />
-          <entry key="Properties" value="88" />
-          <entry key="XML" value="273" />
+          <entry key="JAVA" value="11316" />
+          <entry key="Properties" value="182" />
+          <entry key="XML" value="502" />
         </counts>
       </usages-collector>
     </session>
@@ -175,39 +242,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/domain/src/main/java/back/platform/model/lesson/Lesson.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/back/platform/controller/BackendPlatformApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/back/platform/service/userService/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1309">
-              <caret line="113" column="54" selection-start-line="113" selection-start-column="54" selection-end-line="113" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4008#4009#0" expanded="true" />
-                <element signature="e#4069#4070#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="96">
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -215,29 +253,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/security/src/main/java/back/platform/security/configuration/SecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="43" column="101" selection-start-line="43" selection-start-column="101" selection-end-line="43" selection-end-column="101" />
+            <state relative-caret-position="717">
+              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/back/platform/controller/userRestController/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+              <folding>
+                <element signature="e#740#741#0" expanded="true" />
+                <element signature="e#784#785#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/repository/src/main/java/back/platform/repository/courseRepository/CourseRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/back/platform/controller/AuthenticationAndRegisterController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="204">
+              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -246,12 +288,60 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/back/platform/service/userService/IUserService.java">
+        <entry file="file://$PROJECT_DIR$/domain/src/main/java/back/platform/model/course/Course.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            <state relative-caret-position="255">
+              <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configuration/src/main/java/back/platform/configuration/swaggerConfiguration/SwaggerConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="30" column="86" selection-start-line="30" selection-start-column="86" selection-end-line="30" selection-end-column="86" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/back/platform/controller/userRestController/AuthenticationAndRegisterController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#920#921#0" expanded="true" />
+                <element signature="e#970#971#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/back/platform/BackendPlatformApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#931#955#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -268,63 +358,68 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>LOGGER</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/domain/pom.xml" />
-        <option value="$PROJECT_DIR$/domain/src/main/java/back/platform/model/course/course.java" />
-        <option value="$PROJECT_DIR$/repository/pom.xml" />
-        <option value="$PROJECT_DIR$/repository/src/main/java/back/platform/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/domain/src/main/java/back/platform/model/user/regisration/RegistrationForm.java" />
-        <option value="$PROJECT_DIR$/service/pom.xml" />
-        <option value="$PROJECT_DIR$/exceptions/src/main/java/back/platform/exceptions/registrationException/EmailAlreadyExistException.java" />
-        <option value="$PROJECT_DIR$/exceptions/src/main/java/back/platform/exceptions/registrationException/UsernameAlreadyExistException.java" />
-        <option value="$PROJECT_DIR$/exceptions/src/main/java/back/platform/exceptions/registrationException/PasswordConfirmationException.java" />
-        <option value="$PROJECT_DIR$/message/src/main/java/back/platform/message/responseMessage/SuccessRegistration.java" />
-        <option value="$PROJECT_DIR$/domain/src/main/java/back/platform/model/role/RoleName.java" />
-        <option value="$PROJECT_DIR$/security/src/main/java/back/platform/security/securityParameters/SecurityParams.java" />
-        <option value="$PROJECT_DIR$/security/src/main/java/back/platform/security/jwt/authorizationHeader/ResponseHeader.java" />
-        <option value="$PROJECT_DIR$/security/src/main/java/back/platform/security/jwt/filters/JWTAuthorizationFilter.java" />
-        <option value="$PROJECT_DIR$/exceptions/src/main/java/back/platform/exceptions/notFoundExceptions/User_IDNotFoundException.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/back/platform/controller/AuthenticationAndRegisterController.java" />
-        <option value="$PROJECT_DIR$/exceptions/pom.xml" />
-        <option value="$PROJECT_DIR$/message/pom.xml" />
-        <option value="$PROJECT_DIR$/security/pom.xml" />
-        <option value="$PROJECT_DIR$/domain/src/main/java/back/platform/model/user/User.java" />
-        <option value="$PROJECT_DIR$/security/src/main/java/back/platform/security/jwt/filters/JWTAuthenticationFilter.java" />
-        <option value="$PROJECT_DIR$/security/src/main/java/back/platform/security/securityService/UserDetailsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/back/platform/service/userService/IUserService.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/ServletInitializer.java" />
-        <option value="$PROJECT_DIR$/domain/src/main/java/back/platform/model/userRole/UserRole.java" />
-        <option value="$PROJECT_DIR$/repository/src/main/java/back/platform/repository/courseRepository/CourseRepository.java" />
         <option value="$PROJECT_DIR$/repository/src/main/java/back/platform/repository/lessonRepository/LessonRepository.java" />
         <option value="$PROJECT_DIR$/repository/src/main/java/back/platform/repository/questionRepository/QuestionRepository.java" />
         <option value="$PROJECT_DIR$/repository/src/main/java/back/platform/repository/responseRepository/ResponseRepository.java" />
         <option value="$PROJECT_DIR$/repository/src/main/java/back/platform/repository/roleRepository/RoleRepository.java" />
         <option value="$PROJECT_DIR$/repository/src/main/java/back/platform/repository/testRepository/TestRepository.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/back/platform/service/roleService/IRoleService.java" />
-        <option value="$PROJECT_DIR$/domain/src/main/java/back/platform/model/question/Question.java" />
-        <option value="$PROJECT_DIR$/domain/src/main/java/back/platform/model/role/Role.java" />
-        <option value="$PROJECT_DIR$/domain/src/main/java/back/platform/model/response/Response.java" />
-        <option value="$PROJECT_DIR$/domain/src/main/java/back/platform/model/test/Test.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/back/platform/controller/UserController.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/BackendPlatformApplication.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/back/platform/BackendPlatformApplication.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/back/BackendPlatformApplication.java" />
-        <option value="$PROJECT_DIR$/web/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/repository/src/main/java/back/platform/repository/userRoleRepository/UserRoleRepository.java" />
-        <option value="$PROJECT_DIR$/domain/src/main/java/back/platform/model/course/Course.java" />
-        <option value="$PROJECT_DIR$/domain/src/main/java/back/platform/model/lesson/Lesson.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/back/platform/controller/BackendPlatformApplication.java" />
-        <option value="$PROJECT_DIR$/domain/src/main/java/back/platform/model/user/AppUser.java" />
         <option value="$PROJECT_DIR$/repository/src/main/java/back/platform/repository/userRepository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/back/platform/security/jwt/filters/JWTAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/back/platform/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/back/platform/controller/AuthenticationAndRegisterController.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/back/platform/controller/BackendPlatformApplication.java" />
+        <option value="$PROJECT_DIR$/message/src/main/java/back/platform/message/responseMessage/SuccessRegistration.java" />
+        <option value="$PROJECT_DIR$/exceptions/src/main/java/back/platform/exceptions/notFoundExceptions/User_IDNotFoundException.java" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/back/platform/model/user/AppUser.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/back/platform/service/questionService/IQuestionService.java" />
+        <option value="$PROJECT_DIR$/message/src/main/java/back/platform/message/responseMessage/SuccessfulAddedCourse.java" />
+        <option value="$PROJECT_DIR$/exceptions/src/main/java/back/platform/exceptions/notFoundExceptions/CourseNotFoundException.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/back/platform/controller/courseRestController.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/back/platform/controller/courseRestController/courseRestController.java" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/back/platform/model/course/CourseForm.java" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/back/platform/model/role/Role.java" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/back/platform/model/userRole/UserRole.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/back/platform/service/initializationService/initDataService/IInitDatabaseFeeder.java" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/back/platform/model/lesson/Lesson.java" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/back/platform/model/test/Test.java" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/back/platform/model/question/Question.java" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/back/platform/model/response/Response.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/back/platform/service/initializationService/initDataService/InitDatabaseFeederImpl.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/back/platform/service/courseService/ICourseService.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/back/platform/service/courseService/CourseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/message/src/main/java/back/platform/message/responseMessage/SuccessfulUpdatedCourse.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/back/platform/controller/courseRestController/CourseController.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/back/platform/security/jwt/filters/JWTAuthorizationFilter.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/back/platform/service/userService/IUserService.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/back/platform/service/userService/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web/pom.xml" />
+        <option value="$PROJECT_DIR$/configuration/pom.xml" />
+        <option value="$PROJECT_DIR$/configuration/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/security/src/main/java/back/platform/security/configuration/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/back/platform/BackendPlatformApplication.java" />
         <option value="$PROJECT_DIR$/web/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/web/src/main/java/back/platform/controller/userRestController/AuthenticationAndRegisterController.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/back/platform/controller/userRestController/UserController.java" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/back/platform/model/course/Course.java" />
+        <option value="$PROJECT_DIR$/configuration/src/main/java/back/platform/configuration/swaggerConfiguration/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/repository/src/main/java/back/platform/repository/courseRepository/CourseRepository.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -341,10 +436,17 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -373,12 +475,167 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="BackendPlatform" type="b2602c69:ProjectViewProjectNode" />
               <item name="BackendPlatform" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackendPlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackendPlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackendPlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackendPlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackendPlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackendPlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackendPlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackendPlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackendPlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackendPlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackendPlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackendPlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackendPlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackendPlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackendPlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackendPlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackendPlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackendPlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackendPlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="courseRepository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BackendPlatform" type="b2602c69:ProjectViewProjectNode" />
@@ -442,13 +699,36 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="courseRestController" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackendPlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="userRestController" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackendPlatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackendPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -458,14 +738,14 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584036213968" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584818538444" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../gest-cinema" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -476,6 +756,7 @@
       <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="back.platform.message.responseMessage" />
       <recent name="back.platform.exceptions.notFoundExceptions" />
       <recent name="back.platform.exceptions.registrationException" />
     </key>
@@ -495,7 +776,7 @@
   <component name="RunManager">
     <configuration name="BackendPlatformApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="web" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="back.platform.controller.BackendPlatformApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="back.platform.BackendPlatformApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -515,12 +796,14 @@
       <workItem from="1583256928034" duration="590000" />
       <workItem from="1583747397642" duration="61303000" />
       <workItem from="1584010604037" duration="12578000" />
-      <workItem from="1584092791490" duration="1371000" />
+      <workItem from="1584092791490" duration="42613000" />
+      <workItem from="1584524651700" duration="26144000" />
+      <workItem from="1584701893436" duration="35850000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82882000" />
+    <option name="totallyTimeSpent" value="186118000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -533,9 +816,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14901665" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -544,11 +826,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Learn" order="7" />
       <window_info id="Web" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.3295082" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.36393443" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.28452578" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.36772045" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.52459013" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.6967213" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.3295082" />
@@ -560,15 +842,15 @@
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.19062027" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info active="true" anchor="right" id="Bean Validation" order="9" visible="true" weight="0.32980332" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2730711" />
@@ -613,166 +895,49 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/back/platform/controller/userRestController/AuthenticationAndRegisterController.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service/src/main/java/back/platform/service/userService/UserServiceImpl.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service/src/main/java/back/platform/service/userService/UserServiceImpl.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/web/src/main/java/back/platform/controller/userRestController/AuthenticationAndRegisterController.java</url>
+          <line>20</line>
+          <properties field="userService" class="back.platform.controller.userRestController.AuthenticationAndRegisterController" />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/web/src/main/java/back/platform/controller/userRestController/AuthenticationAndRegisterController.java</url>
+          <line>23</line>
+          <properties class="back.platform.controller.userRestController.AuthenticationAndRegisterController" method="index">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/exceptions/src/main/java/back/platform/exceptions/registrationException/PasswordConfirmationException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="69" lean-forward="true" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.2.5.RELEASE/spring-boot-dependencies-2.2.5.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="1309" column="6" selection-start-line="1309" selection-start-column="6" selection-end-line="1309" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/src/main/java/back/platform/model/role/String.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.2.5.RELEASE/spring-data-commons-2.2.5.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.2.2.RELEASE/spring-security-core-5.2.2.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetailsService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exceptions/src/main/java/back/platform/exceptions/notFoundExceptions/User_IDNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security/src/main/java/back/platform/security/securityParameters/SecurityParams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exceptions/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/message/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security/src/main/java/back/platform/security/jwt/authorizationHeader/ResponseHeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="124" selection-start-line="8" selection-start-column="124" selection-end-line="8" selection-end-column="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security/src/main/java/back/platform/security/jwt/filters/JWTAuthenticationFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-342">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security/src/main/java/back/platform/security/jwt/filters/JWTAuthorizationFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/message/src/main/java/back/platform/message/responseMessage/SuccessRegistration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security/src/main/java/back/platform/security/securityService/UserDetailsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/target/classes/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/target/classes/back/platform/controller/UserController.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/target/classes/back/platform/controller/AuthenticationAndRegisterController.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/target/classes/BackendPlatformApplication.class" />
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/ServletInitializer.java" />
-    <entry file="file://$PROJECT_DIR$/domain/src/main/java/back/platform/model/user/regisration/RegistrationForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repository/src/main/java/back/platform/repository/courseRepository/CourseRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repository/src/main/java/back/platform/repository/lessonRepository/LessonRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repository/src/main/java/back/platform/repository/testRepository/TestRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repository/src/main/java/back/platform/repository/roleRepository/RoleRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/repository/src/main/java/back/platform/repository/responseRepository/ResponseRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -787,90 +952,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BackendPlatform.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.4.RELEASE/spring-webmvc-5.2.4.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="101" column="11" selection-start-line="101" selection-start-column="11" selection-end-line="101" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/back/platform/service/roleService/IRoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/src/main/java/back/platform/model/question/Question.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/src/main/java/back/platform/model/response/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/src/main/java/back/platform/model/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/back/platform/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/src/main/java/back/platform/model/role/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/src/main/java/back/platform/model/userRole/UserRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/src/main/java/back/platform/model/course/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/src/main/java/back/platform/model/user/AppUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="133" column="52" lean-forward="true" selection-start-line="133" selection-start-column="52" selection-end-line="133" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -881,59 +966,232 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.2.1.RELEASE/spring-security-config-5.2.1.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="263" column="36" selection-start-line="263" selection-start-column="36" selection-end-line="263" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/back/platform/service/roleService/IRoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/back/platform/model/user/regisration/RegistrationForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/repository/src/main/java/back/platform/repository/userRepository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exceptions/src/main/java/back/platform/exceptions/notFoundExceptions/User_IDNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/auth0/java-jwt/3.8.3/java-jwt-3.8.3-sources.jar!/com/auth0/jwt/algorithms/Algorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="142" selection-start-line="142" selection-end-line="142" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.3.RELEASE/spring-web-5.2.3.RELEASE.jar!/org/springframework/web/filter/OncePerRequestFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE-sources.jar!/org/springframework/security/web/header/HeaderWriterFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/back/platform/security/securityParameters/SecurityParams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/src/main/java/back/platform/message/responseMessage/SuccessRegistration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/src/main/java/back/platform/message/responseMessage/SuccessfulAddedCourse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exceptions/src/main/java/back/platform/exceptions/notFoundExceptions/CourseNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/back/platform/service/questionService/IQuestionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/back/platform/model/course/CourseForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/back/platform/model/userRole/UserRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repository/src/main/java/back/platform/repository/lessonRepository/LessonRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/back/platform/model/role/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/back/platform/service/initializationService/initDataService/IInitDatabaseFeeder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/back/platform/model/user/AppUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="37" column="40" lean-forward="true" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/domain/src/main/java/back/platform/model/lesson/Lesson.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="299">
+          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/back/platform/controller/BackendPlatformApplication.java">
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/back/platform/model/question/Question.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+        <state relative-caret-position="238">
+          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/back/platform/model/response/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/back/platform/service/initializationService/initDataService/InitDatabaseFeederImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="60" column="49" lean-forward="true" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/back/platform/service/courseService/CourseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="30" column="64" lean-forward="true" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+            <element signature="e#1048#1049#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/src/main/java/back/platform/message/responseMessage/SuccessfulUpdatedCourse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/back/platform/model/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="69" column="20" lean-forward="true" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE-sources.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="211" selection-start-line="211" selection-end-line="211" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/back/platform/service/userService/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="113" column="54" selection-start-line="113" selection-start-column="54" selection-end-line="113" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4008#4009#0" expanded="true" />
-            <element signature="e#4069#4070#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security/src/main/java/back/platform/security/configuration/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="43" column="101" selection-start-line="43" selection-start-column="101" selection-end-line="43" selection-end-column="101" />
+        <state relative-caret-position="1398">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/back/platform/controller/AuthenticationAndRegisterController.java">
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/back/platform/security/jwt/filters/JWTAuthenticationFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="697">
+          <caret line="60" column="59" selection-start-line="60" selection-start-column="59" selection-end-line="60" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -942,18 +1200,161 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/back/platform/service/userService/IUserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="102">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/back/platform/service/courseService/ICourseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/back/platform/security/jwt/filters/JWTAuthorizationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/back/platform/security/securityService/UserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="29" column="66" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/back/platform/controller/courseRestController/CourseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/back/platform/security/configuration/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/back/platform/BackendPlatformApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#931#955#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/back/platform/model/course/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/back/platform/controller/userRestController/AuthenticationAndRegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/back/platform/controller/userRestController/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration/src/main/java/back/platform/configuration/swaggerConfiguration/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="30" column="86" selection-start-line="30" selection-start-column="86" selection-end-line="30" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackendPlatform.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2054" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repository/src/main/java/back/platform/repository/courseRepository/CourseRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1010,11 +1411,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|BackendPlatform</last-edited>
+          <last-edited>security</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -8,11 +8,15 @@ import java.io.Serializable;
 @Entity
 //@Table(name = "response")
 public class Response implements Serializable {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long response_ID;
+    private Long responseID;
+
     private String title;
+
     private Boolean correct;
+
     @ManyToOne
     private Question question;
 
@@ -25,12 +29,12 @@ public class Response implements Serializable {
         this.question = question;
     }
 
-    public Long getResponse_ID() {
-        return response_ID;
+    public Long getResponseID() {
+        return responseID;
     }
 
-    public void setResponse_ID(Long response_ID) {
-        this.response_ID = response_ID;
+    public void setResponseID(Long responseID) {
+        this.responseID = responseID;
     }
 
     public String getTitle() {
@@ -60,7 +64,7 @@ public class Response implements Serializable {
     @Override
     public String toString() {
         return "Response{" +
-                "response_ID=" + response_ID +
+                "responseID=" + responseID +
                 ", title='" + title + '\'' +
                 ", correct=" + correct +
                 ", question=" + question +

@@ -12,7 +12,7 @@ import java.util.Optional;
 
 @Service
 public interface IUserService {
-    ResponseEntity<?> saveUser(RegistrationForm form) throws UsernameAlreadyExistException, EmailAlreadyExistException;
+    AppUser saveUser(RegistrationForm form) throws UsernameAlreadyExistException, EmailAlreadyExistException;
 
     List<AppUser> findAll();
 

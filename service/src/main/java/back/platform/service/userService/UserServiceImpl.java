@@ -19,21 +19,22 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
 
 @Service
+@Transactional
 public class UserServiceImpl implements IUserService, IRoleService {
 
     private final static Logger LOGGER = LogManager.getLogger(UserServiceImpl.class);
 
+    //    @Autowired
     private UserRepository userRepository;
 
+    //    @Autowired
     private RoleRepository roleRepository;
-
-    public UserServiceImpl() {
-    }
 
     public UserServiceImpl(UserRepository userRepository, RoleRepository roleRepository) {
         this.userRepository = userRepository;
@@ -46,10 +47,10 @@ public class UserServiceImpl implements IUserService, IRoleService {
     }
 
     @Override
-    public ResponseEntity<?> saveUser(RegistrationForm form) throws UsernameAlreadyExistException, EmailAlreadyExistException {
+    public AppUser saveUser(RegistrationForm form) throws UsernameAlreadyExistException, EmailAlreadyExistException {
 
         //Check if given username exists
-        if (existByEmail(form.getUsername()))
+        if (existByUsername(form.getUsername()))
             throw new UsernameAlreadyExistException(form.getUsername() + " -> Already exists you must choose another one!");
 
         //Check if given email exists
@@ -63,10 +64,11 @@ public class UserServiceImpl implements IUserService, IRoleService {
 
         AppUser user = new AppUser(form.getFirstname(), form.getLastname(), form.getUsername(), form.getEmail(), password, true);
 
-        addRoleToUser(form.getUsername(), "ROLE_USER");
-
         userRepository.save(user);
-        return new ResponseEntity<>(new SuccessRegistration("User " + "->" + user.getFirstname() + " registered successfully!"), HttpStatus.OK);
+
+        addRoleToUser(form.getUsername(), "ADMIN");
+//        return new ResponseEntity<>(new SuccessRegistration("User " + "->" + user.getFirstname() + " registered successfully!"), HttpStatus.OK);
+        return user;
     }
 
     @Override
@@ -123,6 +125,11 @@ public class UserServiceImpl implements IUserService, IRoleService {
     public void addRoleToUser(String username, String rolename) {
         AppUser user = findByUsername(username);
         Role role = findByRoleName(rolename);
+
+        if (role == null) {
+            Role role1 = new Role(rolename);
+            role = roleRepository.save(role1);
+        }
         user.getRoles().add(role);
     }
 

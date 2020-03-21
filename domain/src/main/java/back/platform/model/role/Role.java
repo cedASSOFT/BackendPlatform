@@ -8,7 +8,7 @@ import java.io.Serializable;
 public class Role implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long role_ID;
+    private Long roleID;
 
     private String roleName;
 
@@ -19,12 +19,12 @@ public class Role implements Serializable {
         this.roleName = roleName;
     }
 
-    public Long getRole_ID() {
-        return role_ID;
+    public Long getRoleID() {
+        return roleID;
     }
 
-    public void setRole_ID(Long role_ID) {
-        this.role_ID = role_ID;
+    public void setRoleID(Long roleID) {
+        this.roleID = roleID;
     }
 
     public String getRoleName() {
@@ -38,7 +38,7 @@ public class Role implements Serializable {
     @Override
     public java.lang.String toString() {
         return "Role{" +
-                "role_ID=" + role_ID +
+                "roleID=" + roleID +
                 ", roleName='" + roleName + '\'' +
                 '}';
     }

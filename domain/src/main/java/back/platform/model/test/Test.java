@@ -10,7 +10,7 @@ import java.io.Serializable;
 public class Test implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long test_ID;
+    private Long testID;
 
     private String link;
 
@@ -28,12 +28,12 @@ public class Test implements Serializable {
         this.lesson = lesson;
     }
 
-    public Long getTest_ID() {
-        return test_ID;
+    public Long getTestID() {
+        return testID;
     }
 
-    public void setTest_ID(Long test_ID) {
-        this.test_ID = test_ID;
+    public void setTestID(Long testID) {
+        this.testID = testID;
     }
 
     public String getLink() {
@@ -63,7 +63,7 @@ public class Test implements Serializable {
     @Override
     public String toString() {
         return "Test{" +
-                "test_ID=" + test_ID +
+                "testID=" + testID +
                 ", link='" + link + '\'' +
                 ", name='" + name + '\'' +
                 ", lesson=" + lesson +

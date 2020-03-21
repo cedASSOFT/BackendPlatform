@@ -41,15 +41,14 @@ public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilte
             e.printStackTrace();
             throw new RuntimeException(e.getMessage());
         }
-// return super.attemptAuthentication(request, response);
     }
 
     @Override
     protected void successfulAuthentication(HttpServletRequest request, HttpServletResponse response, FilterChain chain, Authentication authResult) throws IOException, ServletException {
         User springUser = (User) authResult.getPrincipal();
 
-        List<String> roles=new ArrayList<>();
-        springUser.getAuthorities().forEach(authority->{
+        List<String> roles = new ArrayList<>();
+        springUser.getAuthorities().forEach(authority -> {
             roles.add(authority.getAuthority());
         });
 
